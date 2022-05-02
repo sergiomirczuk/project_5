@@ -1,36 +1,28 @@
 {
-  "name": "newprojectgulp",
+  "name": "p",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiomirczuk/project_5.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiomirczuk/project_5/issues"
+  },
+  "homepage": "https://github.com/sergiomirczuk/project_5#readme",
   "devDependencies": {
     "browser-sync": "^2.27.9",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.50.1"
-  },
-  "dependencies": {
-    "gulp-html-minify": "^0.0.14"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergiomirczuk/project.io.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sergiomirczuk/project.io/issues"
-  },
-  "homepage": "https://github.com/sergiomirczuk/project.io#readme",
-  "description": "puls"
+    "gulp-sass": "^5.1.0"
+  }
 }
