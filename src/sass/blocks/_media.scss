@@ -1,0 +1,166 @@
+@media (max-width: 991px){
+	.consultation{
+		.title{
+			text-align: center;
+			font-size: 30px;
+		}
+		&__descr{
+			text-align: center;
+		}
+		.feed-form{
+			display: block;
+			margin: 36px auto;
+		}
+	}
+
+@media (max-width: 767px){
+	.promo{
+		padding: 40px 20px 40px 20px;
+		&__wrapper{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	.advantages{
+		padding: 70px 25px;
+		&__card{
+			margin-right: 15px;
+			width: 220px;
+		}
+		
+
+	}
+	.consultation{
+		.title{
+			text-align: center;
+			font-size: 30px;
+		}
+		&__descr{
+			text-align: center;
+		}
+		.feed-form{
+			display: block;
+			margin: 36px auto;
+		}
+	}
+ }
+@media (max-width: 575px){
+	.header{
+		flex-wrap: wrap;
+		&__logo{
+			width: 220px;
+		}
+		&__official{
+			font-size: 10px;
+			span{
+				font-size: 12px;
+			}
+		}
+		&__phone{
+			font-size: 15px;
+		}
+		.button{
+			width: 131px;
+		}
+	}
+	.promo{
+		&__header{
+			text-align: center;
+			font-size: 35px;
+		}
+		&__subheader{
+			text-align: center;
+			font-size: 20px;
+		}
+		&__icons{
+			width: 370px;
+		}
+	}
+	.advantages{
+		padding: 70px 20px;
+		&__card{
+			margin-right: 10px;
+			width: 220px;
+		}
+		&__subtitle{
+		font-size: 15px;
+		}
+		&__descr{
+			font-size: 12px;
+		}
+
+	}
+}
+@media (max-width: 320px){
+	.header {
+		display: flex;
+		justify-content: space-around;
+		align-items:flex-end;
+		flex-wrap: wrap;
+		&__logo{
+			width: 137px;
+		}
+		&__official{
+			font-size: 8px;
+			span{
+				font-size: 10px;
+			}
+		}
+		&__contacts{
+			transform: translateX(80px);
+		}
+		&__phone{
+			font-size: 12px;
+			margin-top: 10px;
+		}
+		.button{
+			width: 115px;
+			font-size: 10px;
+		}
+	}
+	.promo{
+		&__header{
+			font-size: 22px;
+
+		}
+		&__subheader{
+			font-size: 13px;
+			margin-top: 0;
+		}
+		&__icons{
+			width: 320px;
+		}
+		&__icon{
+			font-size: 13px;
+		
+		}
+	}
+	.advantages{
+		.title{
+			font-size: 23px;
+			margin-bottom: 20px;
+		}
+		&__wrapper{
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		&__subtitle{
+			margin: 10px 0 10px 0;
+		}
+		&__descr{
+			margin-bottom:10px ;
+		}
+		&__card{
+			margin-top: 20px;
+		}
+	}
+	.consultation{
+		.title{
+			text-align: center;
+			font-size: 22px;
+		}
+	
+	}
+}}
