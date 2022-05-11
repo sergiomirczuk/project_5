@@ -1,0 +1,60 @@
+.footer{
+    height: 630px;
+    position: relative;
+    &__info{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 460px;
+        max-height: 270px;
+        background: $main-color;
+        padding: 50px 68px 60px 69px;
+    }
+    &__addr{
+        line-height: 20px;
+        margin-bottom: 36px;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__phone{
+        line-height: 20px;
+        display: block;
+        margin-bottom: 38px;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        &:hover{
+            color: #FFFFFF;
+        }
+    }
+    &__social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    &__social-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 53px;
+        height: 52px;
+        border: 2px solid #FFFFFF;
+        border-radius: 100%;
+        margin: 0 15px;
+        &:hover{
+            border: 2px solid #000;
+            
+        }
+
+        
+        img{
+            height: 27px;
+        }
+   
+    }
+}

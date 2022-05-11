@@ -10,6 +10,11 @@
 	text-transform: uppercase;
 	color: #ffff;
 	margin-top: 4px;
+	&:hover{
+		background-color: #FF0000;
+		box-shadow: 3px 3px 2px black;
+			border: none;
+	}
 	&__main{
 		margin-top: 68px;
 		width: 300px;

@@ -141,6 +141,11 @@
 			
 		}
 	}
+	.footer{
+		&__info{
+			padding: 40px 38px 50px 39px;
+		}
+	}
 }
 @media (max-width: 320px){
 	.header {
@@ -213,5 +218,6 @@
 		}
 	
 	}
+	
 	
 }
