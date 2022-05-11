@@ -12,6 +12,32 @@
 			margin: 36px auto;
 		}
 	}
+	.carousel{
+		.slick-dots{
+			display: flex;
+			justify-content: center;
+			align-items: center;			
+			li{
+				list-style: none;
+				margin: 0 10px;
+
+			
+			button{
+				background-color: #000;
+				width: 10px;
+				height: 10px;
+				font-size: 0;
+				border-radius: 100%;
+			}
+
+		}
+		
+	}
+		
+		
+
+	}
+	}
 
 @media (max-width: 767px){
 	.promo{
@@ -50,6 +76,7 @@
 		flex-wrap: wrap;
 		&__logo{
 			width: 220px;
+			
 		}
 		&__official{
 			font-size: 10px;
@@ -58,9 +85,12 @@
 			}
 		}
 		&__phone{
+			margin-top: 10px;
 			font-size: 15px;
 		}
 		.button{
+			
+			font-size: 11px;
 			width: 131px;
 		}
 	}
@@ -90,6 +120,26 @@
 			font-size: 12px;
 		}
 
+	}
+	.carousel{
+		padding: 0;
+	}
+	.catalog{
+		&__tab{
+		font-size: 11px;
+		}
+	}
+	.rewiews{
+		img{
+			margin-right: 0;
+		}
+		&__block{
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			
+		}
 	}
 }
 @media (max-width: 320px){
@@ -163,4 +213,5 @@
 		}
 	
 	}
-}}
+	
+}

@@ -7,7 +7,9 @@
 		justify-content: center;
 		align-items: center;
 		margin-bottom: 0;
-		padding-left: 0;
+		padding-left: 25px;
+		padding-right: 25px;
+
 	}
 	&__tab {
 		width: 222px;
@@ -40,7 +42,7 @@
 	&__content{
 		margin-top: 60px;
 		display: none;
-		justify-content: space-between;
+		justify-content: space-around;
 		flex-wrap: wrap;
 		&_active{
 			display: flex;
