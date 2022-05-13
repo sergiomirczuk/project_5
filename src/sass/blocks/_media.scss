@@ -146,6 +146,12 @@
 			padding: 40px 38px 50px 39px;
 		}
 	}
+	.modal{
+		&__close{
+			top: -410px;
+			right: 10px;
+		}
+	}
 }
 @media (max-width: 320px){
 	.header {
@@ -217,6 +223,12 @@
 			font-size: 22px;
 		}
 	
+	}
+	.modal{
+		&__close{
+			top: -410px;
+			right: 36px;
+		}
 	}
 	
 	
